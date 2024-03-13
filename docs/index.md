@@ -131,3 +131,6 @@ function ColumnDisplay(column) {
         )
 }
 ```
+
+
+View source on [GitHub](https://github.com/allisonwhilden/xet-parquet-summary)
