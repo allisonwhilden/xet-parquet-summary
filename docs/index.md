@@ -120,7 +120,7 @@ function ColumnDisplay(column) {
                             }),  
                         vg.text(
                             vg.from("weather", {filterBy: $brush}),
-                            {x: vg.count(), y: column.column_name, text: vg.count(), fill: "black", dx: 10}),
+                            {x: vg.count(), y: column.column_name, text: vg.count(), fill: "var(--theme-foreground)", dx: 10}),
                         vg.yLabel(null),
                         vg.xAxis(null),
                         vg.width(200),
